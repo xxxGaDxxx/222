@@ -1,0 +1,19 @@
+{
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "useTabs": false,
+  "semi": true,
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "singleAttributePerLine": true,
+  "overrides": [
+    {
+      "files": "*.{css,scss}",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}

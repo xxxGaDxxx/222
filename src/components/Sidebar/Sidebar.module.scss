@@ -1,0 +1,23 @@
+.sidebarContainer {
+  position: fixed;
+  top: 0;
+  left: -270px; /* Начальное положение сайдбара за пределами экрана */
+  bottom: 0;
+  transition: left 0.3s ease; /* Анимация для сайдбара */
+  overflow: hidden;
+  z-index: 750;
+}
+
+.sidebarContainerOpen {
+  left: 0;
+}
+
+.blockOverlay {
+  background-color: #0009;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 700;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-secondary-800);
+  padding: var(--padding-s);
+  gap: 10px;
+}
+
+.logo {
+  width: 45px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.containerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.containerRight{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  width: 100%;
+}
+
+.btn{
+  max-width: 220px;
+  width: 100%;
+}
+
+

@@ -1,0 +1,17 @@
+.sidebar {
+  width: 270px;
+  height: 100%;
+  background: var(--linear-gradient-secondary-linear);
+  transition: transform 0.15s cubic-bezier(.4, 0, .2, 1);
+  color: var(--color-light-100);
+  padding-top: 25px;
+  padding-bottom: 84px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(0);
+  position: fixed;
+  z-index: 750;
+  top: 0;
+}
